@@ -6,17 +6,17 @@ A command-line question-answering system for the OWASP Top 10 for LLM Applicatio
 
 1. ***Python 3.12***
 2. ***uv***
-3. ***Ollama**
+3. **Ollama**
     - Download from https://ollama.ai
     - After installing, pull the required model:
-    ```bash
-    ollama pull llama3.2:1b
-    ```
+```bash
+ollama pull llama3.2:1b
+```
 ## Setup
 **Install Python dependencies with uv:**
-    ```bash
-    uv sync
-    ```
+```bash
+uv sync
+```
 
 ## Usage
 **Run the script:**
